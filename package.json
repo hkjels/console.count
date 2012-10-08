@@ -5,6 +5,12 @@
   "author": "Henrik Kjelsberg <hkjels@me.com>",
   "keywords": ["console", "count"],
   "description": "console.count for nodebased applications",
+  "main": "index",
+  "engines": { "node": "*" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hkjels/console.count"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha -r should test/*.test.*"
   },
