@@ -1,0 +1,16 @@
+
+{
+  "name": "console-count",
+  "version": "0.0.01",
+  "author": "Henrik Kjelsberg <hkjels@me.com>",
+  "keywords": ["console", "count"],
+  "description": "console.count for nodebased applications",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r should test/*.test.*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
+
