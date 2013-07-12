@@ -1,4 +1,3 @@
-
 console.count
 =============
 
@@ -8,21 +7,23 @@ Sometimes usefull when debugging.
 
 ## Installation
 
-    npm install console-count
-
+```shell
+$ npm install console-count
+```
 
 ## Usage
 
-    require('console-count')
+```javascript
+require('console-count')
 
-    console.count()
-    console.count('hello')
-    console.count()
+console.count()
+console.count('hello')
+console.count()
 
-    // : 1
-    // hello: 1
-    // : 2
-
+// : 1
+// hello: 1
+// : 2
+```
 
 
 ## License
